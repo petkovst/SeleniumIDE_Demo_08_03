@@ -13,7 +13,7 @@ jobs:
   steps:
     - name: Checkout code
       uses: actions/checout@v3
-    - name: Set up .NET Core
+    - name: Set up .Net
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x 
@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore 
     - name: Run tests
-      run: dotnet tests --verbosity normal    
+      run: dotnet test --verbosity normal    
