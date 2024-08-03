@@ -27,4 +27,3 @@ jobs:
       env:
         CHROMEWEBDRIVER: /usr/bin/gooole-chrome 
       run: dotnet test --verbosity normal    
-      
