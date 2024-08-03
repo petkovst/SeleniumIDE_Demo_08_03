@@ -1,0 +1,4 @@
+*.vsidx
+/.vs
+/bun
+/obj
